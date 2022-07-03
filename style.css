@@ -12,3 +12,28 @@ body {
     font-family:  sans-serif;
     font-style: italic;
 }
+.main-area {
+    width: 100%;
+    overflow: hidden;
+}
+.left-area {
+    width: 33.33%;
+    background-color: #6c5ce7;
+    float: left;
+}
+.middle-area {
+    width: 33.33%;
+    background-color: #fd79a8;
+    float: left;
+    overflow: hidden;
+}
+.right-area {
+    width: 33.33%;
+    background-color: #6c5ce7;
+    overflow: hidden;
+}
+.footer-area {
+    background-color: #b2bec3;
+    padding: 10px;
+
+}
