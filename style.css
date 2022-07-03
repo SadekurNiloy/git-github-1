@@ -15,11 +15,20 @@ body {
 .main-area {
     width: 100%;
     overflow: hidden;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.main-area p::first-letter {
+    text-transform: capitalize;
+}
+.main-area h2::first-letter {
+    text-transform: capitalize;
 }
 .left-area {
     width: 33.33%;
     background-color: #6c5ce7;
     float: left;
+
 }
 .middle-area {
     width: 33.33%;
@@ -36,4 +45,10 @@ body {
     background-color: #b2bec3;
     padding: 10px;
 
+}
+.footer-area p {
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
 }
