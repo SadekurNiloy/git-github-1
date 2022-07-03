@@ -2,3 +2,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.header-area {
+    color: #ffffff;
+    background-color: #b2bec3;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family:  sans-serif;
+    font-style: italic;
+}
